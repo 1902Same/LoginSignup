@@ -1,5 +1,5 @@
 let current = JSON.parse(localStorage.getItem("current"));
-if ((current) && (window.location.href === "file:///E:/New%20Work/JS/LoginSignUp/home.html")) {
+if ((current) && (window.location.href === "https://1902same.github.io/LoginSignup/home.html")) { //Ye pc ki file hay "file:///E:/New%20Work/JS/LoginSignUp/home.html"
     document.getElementById("Hname").innerHTML = current.Sname;
     document.getElementById("name").innerHTML = current.Sname;
     document.getElementById("email").innerHTML = current.Semail;
